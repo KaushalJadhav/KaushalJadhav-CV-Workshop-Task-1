@@ -1,4 +1,6 @@
 # KaushalJadhav-CV-Workshop-Task-1
+Making a bot which uses a webcam facing the user and moves the bot right or left depending on the motion of the steering . <br/>Following is the youtube video demonstration link for the task- https://youtu.be/YEWg2PT2tJg
+<br>
 This task is developed using OpenCV-Python and Arduino IDE (Python Version- 3.6.9 OpenCV Version-4.5.1 Arduino IDE Version-1.8.13).The first part developed in Python captures video of  steering wheel rotating in front of webcam of the laptop. The code is written to track the direction of movement of steering wheel. It comprises of- 
 <br>1.)Frame extraction from the video. 
 <br>2.)Color based image segmentation to detect the steering wheel.
