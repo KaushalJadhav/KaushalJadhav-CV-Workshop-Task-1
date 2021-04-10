@@ -6,7 +6,7 @@ This task is developed using OpenCV-Python and Arduino IDE (Python Version- 3.6.
 <br>2.)Color based image segmentation to detect the steering wheel.
 <br>3.)Finding the contour with maximum area.
 <br>4.)Comparison between plotted points in the consecutive frames to decide the direction of movement of the steering wheel.
-<br>4.)Plotting the mean position of all pixels in the contour with maximum area.
+<br>5.)Plotting the mean position of all pixels in the contour with maximum area.
 <br><br>The second part of the task is developed using Arduino IDE in order to control movement of bot depending on direction of steering. To enable serial communication between Python and Arduino pySerial library in python is used. Arduino IDE is used to communicate with Arduino UNO and control the ON/OFF of motors connected to the left and right whhels of the bot.
 When the motor connected to left wheel is OFF and motor connected to right wheel is ON bot turns in right direction and vice-versa.
 <br> When user inputs 'B' key brakes are applied and both motors are turned OFF through Arduino IDE.
